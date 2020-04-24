@@ -97,8 +97,6 @@ public class logPosition : MonoBehaviour
             stepAni.SetInteger("step",4);
             anno.gameObject.GetComponent<Animator>().SetBool("textFadeOut",true);
             aniPlayOnce = true;
-        }else{
-            return;
         }
     }
 
